@@ -27,8 +27,11 @@ Model:
     (Dense(7, kernel_initializer='glorot_uniform',activation="softmax"))
     
 Diğer eğitim parametreleri:
+
     loss: Categorical Crossentropy,
+
     optimizer: Adam (0.001 lr. ile)
+    
 Modellerin f1, recall precision, accuracy değerlerini aşağıdaki grafiklerde görülebilir. Bu sonuçlardan yola çıkılarak optimal model tercih edilebilir.
 
 <img src="https://github.com/rag0nn/pso-conv/blob/main/results/plot_2d_scored.jpg?raw=true" width="auto">
